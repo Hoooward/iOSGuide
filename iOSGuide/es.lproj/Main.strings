@@ -1,0 +1,60 @@
+
+/* Class = "UIButton"; normalTitle = "问题"; ObjectID = "2Ey-sb-X0J"; */
+"2Ey-sb-X0J.normalTitle" = "问题";
+
+/* Class = "UILabel"; text = "Demo"; ObjectID = "7f5-UT-Lxs"; */
+"7f5-UT-Lxs.text" = "Demo";
+
+/* Class = "UIButton"; normalTitle = "答案"; ObjectID = "9V9-mk-eZe"; */
+"9V9-mk-eZe.normalTitle" = "答案";
+
+/* Class = "UILabel"; text = "degress Fahrenheit"; ObjectID = "EW9-7b-wKh"; */
+"EW9-7b-wKh.text" = "grados Farenheit";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "FTj-0r-8Ez"; */
+"FTj-0r-8Ez.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "FXU-d8-t1S"; */
+"FXU-d8-t1S.text" = "???";
+
+/* Class = "UILabel"; text = "The Big Nerd Ranch Guide-5th Edition"; ObjectID = "HwJ-af-cTf"; */
+"HwJ-af-cTf.text" = "The Big Nerd Ranch Guide-5th Edition";
+
+/* Class = "UITabBarItem"; title = "Converticon"; ObjectID = "MCu-2Y-1Fs"; */
+"MCu-2Y-1Fs.title" = "convertir";
+
+/* Class = "UILabel"; text = "问答题Demo"; ObjectID = "caV-M9-k3l"; */
+"caV-M9-k3l.text" = "问答题Demo";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "gdD-km-I7w"; */
+"gdD-km-I7w.title" = "Mapa";
+
+/* Class = "UITableViewSection"; headerTitle = "Demo"; ObjectID = "hzd-Zn-4ld"; */
+"hzd-Zn-4ld.headerTitle" = "Demo";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "kGr-eZ-SQa"; */
+"kGr-eZ-SQa.text" = "es realmente";
+
+/* Class = "UILabel"; text = "iOS Programming"; ObjectID = "m2K-ON-qVe"; */
+"m2K-ON-qVe.text" = "iOS Programming";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "mpc-xi-oIP"; */
+"mpc-xi-oIP.text" = "???";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "nkt-cr-Q6q"; */
+"nkt-cr-Q6q.text" = "100";
+
+/* Class = "UILabel"; text = "degress Celsius"; ObjectID = "o77-Is-w7i"; */
+"o77-Is-w7i.text" = "grados Celsius";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "pbQ-Yw-GtR"; */
+"pbQ-Yw-GtR.placeholder" = "valor";
+
+/* Class = "UILabel"; text = "1 - Quiz"; ObjectID = "uP3-dn-48e"; */
+"uP3-dn-48e.text" = "1 - Quiz";
+
+/* Class = "UILabel"; text = "问答题Demo"; ObjectID = "y45-KY-KqW"; */
+"y45-KY-KqW.text" = "问答题Demo";
+
+/* Class = "UILabel"; text = "2 - WorldTrotter"; ObjectID = "zyJ-F8-bq4"; */
+"zyJ-F8-bq4.text" = "2 - WorldTrotter";

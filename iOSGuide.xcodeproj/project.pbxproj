@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894BF1021C8C53E70013989E /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1011C8C53E70013989E /* ConversionViewController.swift */; };
+		894BF1041C8D980B0013989E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1031C8D980B0013989E /* MapViewController.swift */; };
+		894BF1061C8DAD5D0013989E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894BF1051C8DAD5D0013989E /* MapKit.framework */; };
+		894BF1081C8DB8160013989E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1071C8DB8160013989E /* WebViewController.swift */; };
+		894BF10A1C8DB8600013989E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894BF1091C8DB8600013989E /* WebKit.framework */; };
+		89693B0B1C93D52E004E3EF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89693B0D1C93D52E004E3EF2 /* Localizable.strings */; };
+		89693B151C93D7C7004E3EF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89693B171C93D7C7004E3EF2 /* Localizable.strings */; };
 		89B3CC091C8AF160005F07F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC081C8AF160005F07F2 /* AppDelegate.swift */; };
 		89B3CC0B1C8AF160005F07F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC0A1C8AF160005F07F2 /* ViewController.swift */; };
 		89B3CC0E1C8AF160005F07F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B3CC0C1C8AF160005F07F2 /* Main.storyboard */; };
@@ -15,6 +22,7 @@
 		89B3CC161C8AF160005F07F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B3CC141C8AF160005F07F2 /* LaunchScreen.storyboard */; };
 		89B3CC211C8AF160005F07F2 /* iOSGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC201C8AF160005F07F2 /* iOSGuideTests.swift */; };
 		89B3CC2C1C8AF161005F07F2 /* iOSGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC2B1C8AF161005F07F2 /* iOSGuideUITests.swift */; };
+		89BA13291C8B12D3001E5035 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA13281C8B12D3001E5035 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		894BF1011C8C53E70013989E /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		894BF1031C8D980B0013989E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		894BF1051C8DAD5D0013989E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		894BF1071C8DB8160013989E /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		894BF1091C8DB8600013989E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		89693B051C93CF8D004E3EF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		89693B071C93D13E004E3EF2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		89693B081C93D238004E3EF2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		89693B0C1C93D52E004E3EF2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89693B161C93D7C7004E3EF2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		89B3CC051C8AF160005F07F2 /* iOSGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B3CC081C8AF160005F07F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B3CC0A1C8AF160005F07F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,7 @@
 		89B3CC271C8AF161005F07F2 /* iOSGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B3CC2B1C8AF161005F07F2 /* iOSGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSGuideUITests.swift; sourceTree = "<group>"; };
 		89B3CC2D1C8AF161005F07F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BA13281C8B12D3001E5035 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894BF10A1C8DB8600013989E /* WebKit.framework in Frameworks */,
+				894BF1061C8DAD5D0013989E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +100,8 @@
 		89B3CBFC1C8AF160005F07F2 = {
 			isa = PBXGroup;
 			children = (
+				894BF1091C8DB8600013989E /* WebKit.framework */,
+				894BF1051C8DAD5D0013989E /* MapKit.framework */,
 				89B3CC071C8AF160005F07F2 /* iOSGuide */,
 				89B3CC1F1C8AF160005F07F2 /* iOSGuideTests */,
 				89B3CC2A1C8AF161005F07F2 /* iOSGuideUITests */,
@@ -101,7 +124,13 @@
 			children = (
 				89B3CC081C8AF160005F07F2 /* AppDelegate.swift */,
 				89B3CC0A1C8AF160005F07F2 /* ViewController.swift */,
+				894BF1071C8DB8160013989E /* WebViewController.swift */,
 				89B3CC0C1C8AF160005F07F2 /* Main.storyboard */,
+				89693B171C93D7C7004E3EF2 /* Localizable.strings */,
+				89693B0D1C93D52E004E3EF2 /* Localizable.strings */,
+				894BF1031C8D980B0013989E /* MapViewController.swift */,
+				894BF1011C8C53E70013989E /* ConversionViewController.swift */,
+				89BA13281C8B12D3001E5035 /* QuizViewController.swift */,
 				89B3CC121C8AF160005F07F2 /* Assets.xcassets */,
 				89B3CC141C8AF160005F07F2 /* LaunchScreen.storyboard */,
 				89B3CC171C8AF160005F07F2 /* Info.plist */,
@@ -232,7 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89693B151C93D7C7004E3EF2 /* Localizable.strings in Resources */,
 				89B3CC161C8AF160005F07F2 /* LaunchScreen.storyboard in Resources */,
+				89693B0B1C93D52E004E3EF2 /* Localizable.strings in Resources */,
 				89B3CC131C8AF160005F07F2 /* Assets.xcassets in Resources */,
 				89B3CC0E1C8AF160005F07F2 /* Main.storyboard in Resources */,
 			);
@@ -260,8 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				89B3CC111C8AF160005F07F2 /* iOSGuide.xcdatamodeld in Sources */,
+				894BF1041C8D980B0013989E /* MapViewController.swift in Sources */,
+				894BF1021C8C53E70013989E /* ConversionViewController.swift in Sources */,
 				89B3CC0B1C8AF160005F07F2 /* ViewController.swift in Sources */,
+				894BF1081C8DB8160013989E /* WebViewController.swift in Sources */,
 				89B3CC091C8AF160005F07F2 /* AppDelegate.swift in Sources */,
+				89BA13291C8B12D3001E5035 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +332,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		89693B0D1C93D52E004E3EF2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89693B0C1C93D52E004E3EF2 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		89693B171C93D7C7004E3EF2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89693B161C93D7C7004E3EF2 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		89B3CC0C1C8AF160005F07F2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				89B3CC0D1C8AF160005F07F2 /* Base */,
+				89693B051C93CF8D004E3EF2 /* en */,
+				89693B071C93D13E004E3EF2 /* es */,
+				89693B081C93D238004E3EF2 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -486,6 +540,7 @@
 				89B3CC321C8AF161005F07F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89B3CC331C8AF161005F07F2 /* Build configuration list for PBXNativeTarget "iOSGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +549,7 @@
 				89B3CC351C8AF161005F07F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89B3CC361C8AF161005F07F2 /* Build configuration list for PBXNativeTarget "iOSGuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +558,7 @@
 				89B3CC381C8AF161005F07F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
