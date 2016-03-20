@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     var window: UIWindow?
     let itemStore = ItemStore()
+    let tempStore = TempStore()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
@@ -23,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let navigationController = splitViewController.viewControllers.first as! UINavigationController
         let rootViewController = navigationController.topViewController as! RootViewController
             rootViewController.itemStore = itemStore
+            rootViewController.tempStore = tempStore
         
         
         
@@ -36,11 +38,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     }
 
     func applicationDidEnterBackground(application: UIApplication) {
-       let success = itemStore.saveChanges()
+       var success = itemStore.saveChanges()
         if success {
             print("Save all of the Items")
         } else {
             print("Could not save any of the Items")
+        }
+        
+        success = tempStore.saveTemps()
+        if success {
+            print("Save all of the temps")
+        } else {
+            print("Could not save any of the temps")
         }
     }
 

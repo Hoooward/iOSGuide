@@ -8,10 +8,12 @@
 
 import UIKit
 
-class ConversionViewController: UIViewController, UITextFieldDelegate {
+class ConversionViewController: UIViewController, UITextFieldDelegate, SegueHandlerType {
     // MARK: Properties
     @IBOutlet weak var celsiusLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
+    
+    var tempStore: TempStore!
     
     var numberFormater: NSNumberFormatter {
         let nf = NSNumberFormatter()
@@ -55,6 +57,11 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Tap Gesuture for dismiss keyboard
     @IBAction func dismissKeyboard(sender: AnyObject) {
+        
+        let newTemp = Temp(fahrenheit: textField.text!, withConversion: celsiusLabel.text!)
+        tempStore.allTemps.append(newTemp)
+        
+        
         textField.resignFirstResponder()
     }
     
@@ -91,6 +98,26 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
             return true
         }
       
+    }
+    
+    // MARK: - IBAction function
+    
+    enum SegueIdentifier: String {
+        case History = "ShowHistory"
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        switch segueIdentifierForSegue(segue) {
+        case .History:
+            let tableViewController = segue.destinationViewController as! HistoryViewCOntroller
+            tableViewController.tempStore = tempStore
+        }
+    }
+
+    
+    @IBAction func showHistoryViewController(sender: AnyObject) {
+        performSegueWithIdentifier(.History, sender: sender)
+        
     }
     
 }

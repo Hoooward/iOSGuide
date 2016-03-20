@@ -34,6 +34,8 @@
 		89B97B661C9CF867005E8E60 /* Homepwner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B97B641C9CF867005E8E60 /* Homepwner.storyboard */; };
 		89B97B691C9E7751005E8E60 /* Temp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B97B671C9E7751005E8E60 /* Temp.storyboard */; };
 		89BA13291C8B12D3001E5035 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA13281C8B12D3001E5035 /* QuizViewController.swift */; };
+		89CD1CF71C9E9DF500E2D532 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CD1CF61C9E9DF500E2D532 /* HistoryViewController.swift */; };
+		89CD1CF91C9E9EEB00E2D532 /* TempStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CD1CF81C9E9EEB00E2D532 /* TempStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		89B97B651C9CF867005E8E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Homepwner.storyboard; sourceTree = "<group>"; };
 		89B97B681C9E7751005E8E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Temp.storyboard; sourceTree = "<group>"; };
 		89BA13281C8B12D3001E5035 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		89CD1CF61C9E9DF500E2D532 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		89CD1CF81C9E9EEB00E2D532 /* TempStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				89B97B671C9E7751005E8E60 /* Temp.storyboard */,
+				89CD1CF61C9E9DF500E2D532 /* HistoryViewController.swift */,
+				89CD1CF81C9E9EEB00E2D532 /* TempStore.swift */,
 				894BF1031C8D980B0013989E /* MapViewController.swift */,
 				894BF1071C8DB8160013989E /* WebViewController.swift */,
 				894BF1011C8C53E70013989E /* ConversionViewController.swift */,
@@ -368,10 +374,12 @@
 				89B97B631C9C1F85005E8E60 /* CameraOverlayView.swift in Sources */,
 				89B97B611C9C1297005E8E60 /* ImageStore.swift in Sources */,
 				894BF1041C8D980B0013989E /* MapViewController.swift in Sources */,
+				89CD1CF91C9E9EEB00E2D532 /* TempStore.swift in Sources */,
 				894BF1021C8C53E70013989E /* ConversionViewController.swift in Sources */,
 				89B3CC0B1C8AF160005F07F2 /* ViewController.swift in Sources */,
 				894BF1081C8DB8160013989E /* WebViewController.swift in Sources */,
 				89B3CC091C8AF160005F07F2 /* AppDelegate.swift in Sources */,
+				89CD1CF71C9E9DF500E2D532 /* HistoryViewController.swift in Sources */,
 				89BA13291C8B12D3001E5035 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
