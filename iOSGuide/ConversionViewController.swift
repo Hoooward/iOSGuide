@@ -35,6 +35,16 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    // MARK: View lift cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        navigationItem.title = "Temp"
+    }
+    
+    @IBAction func dismissMySelf() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     func updateCelsiusLabel() {
         if let value = celsiusValues {
             celsiusLabel.text = numberFormater.stringFromNumber(value)

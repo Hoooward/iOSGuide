@@ -15,7 +15,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     var mapView: MKMapView!
     var locationManager: CLLocationManager?
     
-    //View Lift cycle
+    // MARK: - View Lift cycle
     
     /*
         When the view controller is asked for its view and its

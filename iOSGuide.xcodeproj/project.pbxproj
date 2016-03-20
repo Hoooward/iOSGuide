@@ -14,6 +14,7 @@
 		894BF10A1C8DB8600013989E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894BF1091C8DB8600013989E /* WebKit.framework */; };
 		89693B0B1C93D52E004E3EF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89693B0D1C93D52E004E3EF2 /* Localizable.strings */; };
 		89693B151C93D7C7004E3EF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89693B171C93D7C7004E3EF2 /* Localizable.strings */; };
+		89693B1E1C95973C004E3EF2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693B1D1C95973C004E3EF2 /* Item.swift */; };
 		89B3CC091C8AF160005F07F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC081C8AF160005F07F2 /* AppDelegate.swift */; };
 		89B3CC0B1C8AF160005F07F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC0A1C8AF160005F07F2 /* ViewController.swift */; };
 		89B3CC0E1C8AF160005F07F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B3CC0C1C8AF160005F07F2 /* Main.storyboard */; };
@@ -22,6 +23,16 @@
 		89B3CC161C8AF160005F07F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B3CC141C8AF160005F07F2 /* LaunchScreen.storyboard */; };
 		89B3CC211C8AF160005F07F2 /* iOSGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC201C8AF160005F07F2 /* iOSGuideTests.swift */; };
 		89B3CC2C1C8AF161005F07F2 /* iOSGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3CC2B1C8AF161005F07F2 /* iOSGuideUITests.swift */; };
+		89B653261C995C2600BF6DCC /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B653251C995C2600BF6DCC /* ItemViewController.swift */; };
+		89B97B571C9960DE005E8E60 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B97B561C9960DE005E8E60 /* ItemStore.swift */; };
+		89B97B591C9A7C69005E8E60 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B97B581C9A7C69005E8E60 /* ItemCell.swift */; };
+		89B97B5B1C9BE0F3005E8E60 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B97B5A1C9BE0F3005E8E60 /* DetailViewController.swift */; };
+		89B97B5D1C9BF24E005E8E60 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B97B5C1C9BF24E005E8E60 /* RootViewController.swift */; };
+		89B97B5F1C9BF45C005E8E60 /* HYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B97B5E1C9BF45C005E8E60 /* HYTextField.swift */; };
+		89B97B611C9C1297005E8E60 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B97B601C9C1297005E8E60 /* ImageStore.swift */; };
+		89B97B631C9C1F85005E8E60 /* CameraOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B97B621C9C1F85005E8E60 /* CameraOverlayView.swift */; };
+		89B97B661C9CF867005E8E60 /* Homepwner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B97B641C9CF867005E8E60 /* Homepwner.storyboard */; };
+		89B97B691C9E7751005E8E60 /* Temp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B97B671C9E7751005E8E60 /* Temp.storyboard */; };
 		89BA13291C8B12D3001E5035 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA13281C8B12D3001E5035 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +64,7 @@
 		89693B081C93D238004E3EF2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		89693B0C1C93D52E004E3EF2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		89693B161C93D7C7004E3EF2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		89693B1D1C95973C004E3EF2 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		89B3CC051C8AF160005F07F2 /* iOSGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B3CC081C8AF160005F07F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B3CC0A1C8AF160005F07F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +79,16 @@
 		89B3CC271C8AF161005F07F2 /* iOSGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B3CC2B1C8AF161005F07F2 /* iOSGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSGuideUITests.swift; sourceTree = "<group>"; };
 		89B3CC2D1C8AF161005F07F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B653251C995C2600BF6DCC /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		89B97B561C9960DE005E8E60 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		89B97B581C9A7C69005E8E60 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		89B97B5A1C9BE0F3005E8E60 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		89B97B5C1C9BF24E005E8E60 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		89B97B5E1C9BF45C005E8E60 /* HYTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYTextField.swift; sourceTree = "<group>"; };
+		89B97B601C9C1297005E8E60 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		89B97B621C9C1F85005E8E60 /* CameraOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayView.swift; sourceTree = "<group>"; };
+		89B97B651C9CF867005E8E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Homepwner.storyboard; sourceTree = "<group>"; };
+		89B97B681C9E7751005E8E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Temp.storyboard; sourceTree = "<group>"; };
 		89BA13281C8B12D3001E5035 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +119,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89693B1A1C9596E9004E3EF2 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				89B97B671C9E7751005E8E60 /* Temp.storyboard */,
+				894BF1031C8D980B0013989E /* MapViewController.swift */,
+				894BF1071C8DB8160013989E /* WebViewController.swift */,
+				894BF1011C8C53E70013989E /* ConversionViewController.swift */,
+			);
+			name = 2;
+			sourceTree = "<group>";
+		};
+		89693B1B1C959705004E3EF2 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				89BA13281C8B12D3001E5035 /* QuizViewController.swift */,
+			);
+			name = 1;
+			sourceTree = "<group>";
+		};
+		89693B1C1C959717004E3EF2 /* Hepler */ = {
+			isa = PBXGroup;
+			children = (
+				89B97B5C1C9BF24E005E8E60 /* RootViewController.swift */,
+				89693B0D1C93D52E004E3EF2 /* Localizable.strings */,
+				89693B171C93D7C7004E3EF2 /* Localizable.strings */,
+				89B3CC0F1C8AF160005F07F2 /* iOSGuide.xcdatamodeld */,
+				89B3CC141C8AF160005F07F2 /* LaunchScreen.storyboard */,
+				89B3CC081C8AF160005F07F2 /* AppDelegate.swift */,
+				89B3CC0A1C8AF160005F07F2 /* ViewController.swift */,
+				89B3CC171C8AF160005F07F2 /* Info.plist */,
+			);
+			name = Hepler;
+			sourceTree = "<group>";
+		};
+		89693B211C959F6A004E3EF2 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				89B653251C995C2600BF6DCC /* ItemViewController.swift */,
+				89B97B5E1C9BF45C005E8E60 /* HYTextField.swift */,
+				89B97B5A1C9BE0F3005E8E60 /* DetailViewController.swift */,
+				89B97B601C9C1297005E8E60 /* ImageStore.swift */,
+				89693B1D1C95973C004E3EF2 /* Item.swift */,
+				89B97B561C9960DE005E8E60 /* ItemStore.swift */,
+				89B97B581C9A7C69005E8E60 /* ItemCell.swift */,
+				89B97B621C9C1F85005E8E60 /* CameraOverlayView.swift */,
+				89B97B641C9CF867005E8E60 /* Homepwner.storyboard */,
+			);
+			name = 3;
+			sourceTree = "<group>";
+		};
 		89B3CBFC1C8AF160005F07F2 = {
 			isa = PBXGroup;
 			children = (
@@ -122,19 +194,12 @@
 		89B3CC071C8AF160005F07F2 /* iOSGuide */ = {
 			isa = PBXGroup;
 			children = (
-				89B3CC081C8AF160005F07F2 /* AppDelegate.swift */,
-				89B3CC0A1C8AF160005F07F2 /* ViewController.swift */,
-				894BF1071C8DB8160013989E /* WebViewController.swift */,
+				89693B211C959F6A004E3EF2 /* 3 */,
 				89B3CC0C1C8AF160005F07F2 /* Main.storyboard */,
-				89693B171C93D7C7004E3EF2 /* Localizable.strings */,
-				89693B0D1C93D52E004E3EF2 /* Localizable.strings */,
-				894BF1031C8D980B0013989E /* MapViewController.swift */,
-				894BF1011C8C53E70013989E /* ConversionViewController.swift */,
-				89BA13281C8B12D3001E5035 /* QuizViewController.swift */,
+				89693B1A1C9596E9004E3EF2 /* 2 */,
+				89693B1B1C959705004E3EF2 /* 1 */,
+				89693B1C1C959717004E3EF2 /* Hepler */,
 				89B3CC121C8AF160005F07F2 /* Assets.xcassets */,
-				89B3CC141C8AF160005F07F2 /* LaunchScreen.storyboard */,
-				89B3CC171C8AF160005F07F2 /* Info.plist */,
-				89B3CC0F1C8AF160005F07F2 /* iOSGuide.xcdatamodeld */,
 			);
 			path = iOSGuide;
 			sourceTree = "<group>";
@@ -263,8 +328,10 @@
 			files = (
 				89693B151C93D7C7004E3EF2 /* Localizable.strings in Resources */,
 				89B3CC161C8AF160005F07F2 /* LaunchScreen.storyboard in Resources */,
+				89B97B661C9CF867005E8E60 /* Homepwner.storyboard in Resources */,
 				89693B0B1C93D52E004E3EF2 /* Localizable.strings in Resources */,
 				89B3CC131C8AF160005F07F2 /* Assets.xcassets in Resources */,
+				89B97B691C9E7751005E8E60 /* Temp.storyboard in Resources */,
 				89B3CC0E1C8AF160005F07F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +357,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B97B5F1C9BF45C005E8E60 /* HYTextField.swift in Sources */,
+				89B653261C995C2600BF6DCC /* ItemViewController.swift in Sources */,
 				89B3CC111C8AF160005F07F2 /* iOSGuide.xcdatamodeld in Sources */,
+				89B97B571C9960DE005E8E60 /* ItemStore.swift in Sources */,
+				89B97B5B1C9BE0F3005E8E60 /* DetailViewController.swift in Sources */,
+				89B97B5D1C9BF24E005E8E60 /* RootViewController.swift in Sources */,
+				89B97B591C9A7C69005E8E60 /* ItemCell.swift in Sources */,
+				89693B1E1C95973C004E3EF2 /* Item.swift in Sources */,
+				89B97B631C9C1F85005E8E60 /* CameraOverlayView.swift in Sources */,
+				89B97B611C9C1297005E8E60 /* ImageStore.swift in Sources */,
 				894BF1041C8D980B0013989E /* MapViewController.swift in Sources */,
 				894BF1021C8C53E70013989E /* ConversionViewController.swift in Sources */,
 				89B3CC0B1C8AF160005F07F2 /* ViewController.swift in Sources */,
@@ -365,6 +441,22 @@
 				89B3CC151C8AF160005F07F2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		89B97B641C9CF867005E8E60 /* Homepwner.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B97B651C9CF867005E8E60 /* Base */,
+			);
+			name = Homepwner.storyboard;
+			sourceTree = "<group>";
+		};
+		89B97B671C9E7751005E8E60 /* Temp.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B97B681C9E7751005E8E60 /* Base */,
+			);
+			name = Temp.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -502,6 +594,7 @@
 		89B3CC371C8AF161005F07F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSGuideUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.Hoooward.iOSGuideUITests;
@@ -513,6 +606,7 @@
 		89B3CC381C8AF161005F07F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSGuideUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.Hoooward.iOSGuideUITests;
